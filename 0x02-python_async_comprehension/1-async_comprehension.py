@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Generate a 10 number list using an asynchronous generator
 """
-from typing import List
 from importlib import import_module as using
-
+from typing import List
 
 async_generator = using('0-async_generator').async_generator
 
